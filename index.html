@@ -1,0 +1,215 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CSS3实现照片墙</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.container img:hover{
+			transform: scale(1.4);
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="container" id="container" style="width: 1549.33px;">
+		<img src="img/img1.gif" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%;transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img9.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/secondDay.jpg" class="picBase" id="pic-4" style="top: 16.7881%; left: 16.1651%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img7.jpg" class="picBase" id="pic-7" style="top: 13.1067%; left: 26.4641%; transform: rotate(-0.683354deg) translate(-50%, -50%);  width: 100px; height: 100px;">
+		<img src="img/img9.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fourthDay.jpg" class="picBase" id="pic-10" style="top: 36.097%; left: 39.1571%; transform: rotate(-11.9162deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fifthDay.jpg" class="picBase" id="pic-14" style="top: 35.57%; left: 87.3213%; transform: rotate(-0.67572deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img9.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img1.gif" class="picBase" id="pic-14" style="top: 35.57%; left: 87.3213%; transform: rotate(-0.67572deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/secondDay.jpg" class="picBase" id="pic-18" style="top: 28.8019%; left: 31.2881%; transform: rotate(-6.0317deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img0.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img7.jpg" class="picBase" id="pic-21" style="top: 29.7028%; left: 67.5311%; transform: rotate(-11.5894deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-24" style="top: 35.1062%; left: 74.7367%; transform: rotate(-5.60531deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fourthDay.jpg" class="picBase" id="pic-24" style="top: 35.1062%; left: 74.7367%; transform: rotate(-5.60531deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fifthDay.jpg" class="picBase" id="pic-14" style="top: 35.57%; left: 87.3213%; transform: rotate(-0.67572deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img1.gif" class="picBase" id="pic-27" style="top: 30.6421%; left: 29.4456%; transform: rotate(-2.19676deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img9.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/secondDay.jpg" class="picBase" id="pic-30" style="top: 39.8727%; left: 26.8177%; transform: rotate(-11.7489deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img0.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img7.jpg" class="picBase" id="pic-33" style="top: 60.8062%; left: 27.188%; transform: rotate(8.84697deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		
+		<img src="img/fourthDay.jpg" class="picBase" id="pic-36" style="top: 28.5352%; left: 41.9209%; transform: rotate(8.12112deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fifthDay.jpg" class="picBase" id="pic-14" style="top: 35.57%; left: 87.3213%; transform: rotate(-0.67572deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img9.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img1.gif" class="picBase" id="pic-40" style="top: 17.3312%; left: 38.3409%; transform: rotate(-6.94999deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/secondDay.jpg" class="picBase" id="pic-43" style="top: 44.5175%; left: 13.6122%; transform: rotate(-7.23153deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		
+		<img src="img/img7.jpg" class="picBase" id="pic-46" style="top: 56.4524%; left: 58.8185%; transform: rotate(-11.2209deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img9.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fourthDay.jpg" class="picBase" id="pic-49" style="top: 34.0193%; left: 31.3668%; transform: rotate(-3.57686deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fifthDay.jpg" class="picBase" id="pic-14" style="top: 35.57%; left: 87.3213%; transform: rotate(-0.67572deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img0.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img1.gif" class="picBase" id="pic-52" style="top: 27.0682%; left: 34.8145%; transform: rotate(0.356692deg) translate(-50%, -50%); width: 100px; height: 100px;"><img src="img/img3.png" class="picBase" id="pic-53" style="top: 19.26%; left: 87.1564%; transform: rotate(6.04477deg) translate(-50%, -50%); width: 100px; height: 100px;"><img src="img/img4.png" class="picBase" id="pic-54" style="top: 47.4572%; left: 33.5057%; transform: rotate(4.60933deg) translate(-50%, -50%); width: 100px; height: 100px;"><img src="img/img5.jpg" class="picBase" id="pic-55" style="top: 25.0767%; left: 36.6896%; transform: rotate(4.42415deg) translate(-50%, -50%); width: 100px; height: 100px;"><img src="img/img6.jpg" class="picBase" id="pic-56" style="top: 46.3345%; left: 62.5951%; transform: rotate(-5.48345deg) translate(-50%, -50%); width: 100px; height: 100px;"><img src="img/img7.jpg" class="picBase" id="pic-57" style="top: 6.09527%; left: 31.4778%; transform: rotate(2.29511deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/secondDay.jpg" class="picBase" id="pic-60" style="top: 56.2685%; left: 80.5272%; transform: rotate(12.1165deg) translate(-50%, -50%); width: 100px; height: 100px;">
+
+		<img src="img/img7.jpg" class="picBase" id="pic-63" style="top: 26.5357%; left: 81.2013%; transform: rotate(6.83388deg) translate(-50%, -50%); width: 100px; height: 100px;">
+
+		<img src="img/fourthDay.jpg" class="picBase" id="pic-66" style="top: 66.2249%; left: 57.2835%; transform: rotate(-3.85286deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-69" style="top: 32.9245%; left: 91.386%; transform: rotate(-6.47561deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fifthDay.jpg" class="picBase" id="pic-14" style="top: 35.57%; left: 87.3213%; transform: rotate(-0.67572deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img0.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img1.gif" class="picBase" id="pic-72" style="top: 56.9682%; left: 74.5545%; transform: rotate(4.27716deg) translate(-50%, -50%); width: 100px; height: 100px;">
+
+		<img src="img/secondDay.jpg" class="picBase" id="pic-75" style="top: 39.8104%; left: 87.4339%; transform: rotate(-0.388706deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img7.jpg" class="picBase" id="pic-78" style="top: 21.5768%; left: 13.9307%; transform: rotate(2.17988deg) translate(-50%, -50%); width: 100px; height: 100px;">
+
+		<img src="img/fourthDay.jpg" class="picBase" id="pic-81" style="top: 60.0762%; left: 43.3843%; transform: rotate(-4.22486deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fifthDay.jpg" class="picBase" id="pic-14" style="top: 35.57%; left: 87.3213%; transform: rotate(-0.67572deg) translate(-50%, -50%); width: 100px; height: 100px;">
+
+		<img src="img/img1.gif" class="picBase" id="pic-84" style="top: 69.8122%; left: 59.9711%; transform: rotate(3.47571deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/secondDay.jpg" class="picBase" id="pic-87" style="top: 64.8323%; left: 52.2501%; transform: rotate(4.38478deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img0.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img7.jpg" class="picBase" id="pic-90" style="top: 67.1305%; left: 50.0947%; transform: rotate(2.05441deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img7.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fourthDay.jpg" class="picBase" id="pic-93" style="top: 36.7021%; left: 49.2008%; transform: rotate(3.43262deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/fifthDay.jpg" class="picBase" id="pic-14" style="top: 35.57%; left: 87.3213%; transform: rotate(-0.67572deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img6.jpg" class="picBase" id="pic-1" style="top: 49.1699%; left: 45.328%; transform: rotate(11.8348deg) translate(-50%, -50%); width: 100px; height: 100px;">
+		<img src="img/img1.gif" class="picBase" id="pic-96" style="top: 62.1765%; left: 67.1386%; transform: rotate(-1.5468deg) translate(-50%, -50%); width: 100px; height: 100px;">
+			<div class="second" style="float:left">
+				<h2>蒋亚星</h2>
+			</div>
+			<div class="third" style="float:right">
+				<h2>王洋</h2>
+			</div>
+	</div>
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script> 
+	$(function () {
+			var count = 0;
+			var selectFlag = false;
+			var startFlag = false;
+			var roundBox;
+			$("#container").css("width", window.innerHeight * 4 / 3)
+			var appendPic = function (item) {
+				if (selectFlag) {
+					return
+				}
+				var x = Math.random() * 4,
+					y = Math.random() * 4
+				if (!heartFunc(x, y)) {
+					appendPic(item)
+				} else {
+					var back = "jpg";
+					var imgNum = 10;
+					if (item % imgNum == 1) {
+						back = "gif"
+					}
+					if (item % imgNum == 2 || item % imgNum == 3 || item % imgNum == 4) {
+						back = "png"
+					}
+					var html = '<img src="img/img' + item % imgNum + '.' + back + '" class="picBase" id="pic-' + item + '"  />'
+					$("#container").append(html)
+					setTimeout(function () {
+						$("#pic-" + item).css("top", 45 + 25 * (2 - y) * 0.85 + "%").css("left", 50 + 25 * (2 - x) * 0.85 + "%")
+							.css("transform", "rotate("+(25 * (0.5 - Math.random())) + "deg) translate(-50%,-50%)")
+							.css("width", "100px").css("height", "100px")
+					}, 500);
+
+				}
+
+			}
+			var init = function () {
+				for (var i = 1; i < 100; i++) {
+					appendPic(i)
+					count++
+				}
+				// setTimeout(function () {
+				// 	if(selectFlag){
+				// 		return
+				// 	}
+				// 	appendPic(count)
+				// 	count++;
+				// 	init()
+				// }, 1000);				
+			}
+			var selectFunc = function () {
+				$(".surprise").removeClass("surprise").css("transform", "rotate("+(25 * (0.5 - Math.random())) + "deg) ")
+				$("#pic-" + Math.floor(Math.random() * count)).addClass("surprise")		
+				$(".start").removeClass("start")		
+			}
+			var comfirmFunc = function () {				
+				startFunc();
+			}
+			var startFunc = function () {
+				$(".surprise").removeClass("surprise")
+				roundBox= window.setInterval(function(){
+					
+				$(".start").removeClass("start")
+					for (var i = 1; i < count; i++) {
+					if(i%20==Math.floor(Math.random() * 20)){
+						$("#pic-" + i).addClass("start")
+					}					
+				}
+				},200)				
+			}
+
+			var enterNum=0
+			$(document).keydown(function (e) {
+				selectFlag = true;
+				if (!e) var e = window.event;
+				if (e.keyCode == 32) { //选
+					if(enterNum%2==0){
+						startFunc();
+					}else{			
+						startFlag=true		
+						window.clearInterval(roundBox)					
+						$(".start").removeClass("start")
+						selectFunc();
+					}
+					enterNum++
+					// startFunc();
+				}
+				if (e.keyCode == 13) { //存
+					comfirmFunc();
+				}
+			});
+
+
+			var heartFunc = function (x, y) {
+				// console.log(x,y)
+				if (x >= 0 && x < 1) {
+					if (y < (x + 3) && y > (-x + 2)) {
+						return true
+					}
+				} else if (x >= 1 && x < 2) {
+					if (y < (-x + 5) && y > (-x + 2)) {
+						return true
+					}
+				} else if (x >= 2 && x < 3) {
+					if (y < (x + 1) && y > (x - 2)) {
+						return true
+					}
+				} else if (x >= 3 && x < 4) {
+					if (y < (-x + 7) && y > (x - 2)) {
+						return true
+					}
+				}
+				return false
+			}
+
+			init();
+		})
+	</script>
+</body>
+
+</html>
